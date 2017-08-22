@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+    <com.li.jacky.nestedscrollingdemo.view.OuterViewGroup
+      android:layout_width="200dp"
+      android:layout_height="200dp"
+      android:background="@color/colorAccent">
+        <com.li.jacky.nestedscrollingdemo.view.MiddleViewGroup
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:background="@color/colorPrimary">
+            <com.li.jacky.nestedscrollingdemo.view.InnerView
+              android:layout_width="50dp"
+              android:layout_height="50dp"
+              android:background="#666"/>
+        </com.li.jacky.nestedscrollingdemo.view.MiddleViewGroup>
+    </com.li.jacky.nestedscrollingdemo.view.OuterViewGroup>
+
+</LinearLayout>
